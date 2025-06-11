@@ -23,7 +23,7 @@ let image = document.querySelector('.image');
 
 contentButton.addEventListener('click', function() {
 
-myName.innerHTML="Sarah";
+    myName.innerHTML="Sarah";
 
 
 });
