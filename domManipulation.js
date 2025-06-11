@@ -41,6 +41,10 @@ image1Button.addEventListener('click', function () {
 // 5. Add an event listener to the `image2Button`
 // 6. When clicked, it should change the source of `image` to another image URL.
 
+image2Button.addEventListener('click', function () {
+    selector.src="https://img-new.cgtrader.com/items/2629662/4c2d6155f4/grid/happy-default-cube-orange-funny-cartoon-style-lowpoly-3d-model-low-poly-obj-fbx-blend.jpg";
+
+});
 
 // BONUS
 // 7. Try using different event types for your buttons.
