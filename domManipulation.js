@@ -9,11 +9,11 @@ let myHobby = document.querySelector('.hobby');
 let myLocation = document.querySelector('.location');
 let image = document.querySelector('.image');
 
-
 // CODE ALONG
 // 1. An event listener is provided for the `contentButton`
 // 2. When clicked, it should change the content of:
 //   - The `name` header.
+
 
 // -- RETURN TO LESSON --
 
@@ -23,9 +23,7 @@ let image = document.querySelector('.image');
 
 contentButton.addEventListener('click', function() {
 
-
-
-
+myName.innerHTML="Sarah";
 
 
 });
@@ -34,7 +32,10 @@ contentButton.addEventListener('click', function() {
 // 4. When clicked, it should change the source of `image` to another image URL.
 
 
+image1Button.addEventListener('click', function () {
+    selector.src="https://img-new.cgtrader.com/items/2629650/0dea336301/large/happy-default-cube-green-funny-cartoon-style-lowpoly-3d-model-low-poly-obj-fbx-blend.jpg";
 
+});
 
 
 // 5. Add an event listener to the `image2Button`
